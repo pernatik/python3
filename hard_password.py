@@ -15,6 +15,7 @@ def is_valid_password(password):
         # Polindrom
         if a == a[::-1]:
             aflag = True
+        # Prostoe
         k = 0
         for i in range(2, b // 2+1):
             if (b % i == 0):
